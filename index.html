@@ -12,19 +12,14 @@ bodyClass: page-home
 </div>
 
 <div class="container pt-2">
-  <div class="call">
+  <form class="call" action="https://dadess.cat/dataset">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-      <div class="call-email"><strong>Email: </strong>
-        <a href="mailto:{{ site.data.contact.email }}">
-          {{ site.data.contact.email }}
-        </a>
-      </div>
+      <input type="text" placeholder="alimentació" name="q">
     </div>
     <div class="call-box-bottom">
-      <a href="{{site.baseurl}}/contact" class="button">{{ site.data.landing.search }}</a>
+      <button type="submit" class="button">{{ site.data.landing.search }}</button>
     </div>
-  </div>
+  </form>
 </div>
 
 <div class="container pt-8 pt-md-10">
