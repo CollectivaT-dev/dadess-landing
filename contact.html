@@ -40,7 +40,7 @@ lang: ca
 
 <script>
 
-    var mymap = L.map('mapid').setView([41.370047, 2.137152], 13);
+    var mymap = L.map('mapid').setView([41.3692,2.13709], 14);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
@@ -52,7 +52,7 @@ lang: ca
         zoomOffset: -1
     }).addTo(mymap);
 
-    L.marker([41.370047, 2.137152]).addTo(mymap)
+    L.marker([41.3692,2.13709]).addTo(mymap)
         .bindPopup( {{ site.data.contact.popup }} ).openPopup();
 
 </script>
