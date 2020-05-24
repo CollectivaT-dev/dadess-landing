@@ -27,10 +27,14 @@ $link-decoration: none;
 $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
+// Font source
+@font-face { font-family: Ubuntu; src: url('../fonts/ubuntu/Ubuntu-R.ttf'); } 
+@font-face { font-family: Ubuntu; font-weight: bold; src: url('../fonts/ubuntu/Ubuntu-L.ttf');}
+
 // Fonts
 $font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
   -apple-system;
-$font-family-heading: 'Ubuntu', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-heading: 'Uself', 'Helvetica Neue', Arial, sans-serif, -apple-system;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
 $font-weight-light: 300;
