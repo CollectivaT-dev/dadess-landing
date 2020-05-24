@@ -3,6 +3,24 @@ exclude: ['README.md']
 permalink: pretty
 title: 'DADESS'
 
+header:
+  services:
+    en: Services
+    es: Servicios
+    ca: Serveis
+  team:
+    en: Team
+    es: Equipo
+    ca: Equip
+  testimonials:
+    en: Testimonials
+    es: Testimonios
+    ca: Testimonis
+  contact:
+    en: Contact
+    es: Contacto
+    ca: Contacte
+
 collections:
   services:
     output: true
