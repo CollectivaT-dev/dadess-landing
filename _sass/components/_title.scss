@@ -37,3 +37,23 @@
     display: block;
   }
 }
+.title-4 {
+  font-family: $font-family-base;
+  font-weight: light;
+  color: #333333;
+  font-size: 1.2rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 1.4rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 1.6rem;
+  }
+  a {
+    display: block;
+  }
+  text-align: center;
+}
+.center {
+ color: #666663;
+ text-align: center;
+}

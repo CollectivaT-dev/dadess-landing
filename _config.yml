@@ -32,6 +32,38 @@ collections:
     output: true
     permalink: /testimonials/:path/
 
+signup:
+  title:
+    en: Discover
+    es:
+    ca: Informeu-vos
+  call:
+    en:
+    es:
+    ca: "Si voleu estar al dia sobre els usos innovadors de les dades i la intel·ligència empresarial per l'economia solidària, deixeu el vostre correu electrònic per subscriure al nostre butlletí"
+  mini_call:
+    en: Subscribe to our newsletter
+    es:
+    ca: Subscriu-te al nostre butlletí
+  subscribe:
+    en:
+    es:
+    ca: Subscriu-te
+  placeholder:
+    en: email address
+    es:
+    ca: "Correu electrònic"
+
+contribute:
+  title:
+    en: Contribute
+    es:
+    ca: Contribuïu
+  call:
+    en:
+    es:
+    ca:
+
 defaults:
   - scope:
       type: services
