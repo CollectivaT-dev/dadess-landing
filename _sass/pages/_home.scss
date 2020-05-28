@@ -15,6 +15,9 @@
     background-size: 25%;
     background-position: 85% 50px;
   }
+  .community{
+    padding: 40px;
+  }
   .call {
     position: relative;
     overflow: hidden;
@@ -33,10 +36,10 @@
       width: 90%;
     }
     @include media-breakpoint-up(md) {
-      width: 70%;
+      width: 90%;
     }
     @include media-breakpoint-up(lg) {
-      width: 50%;
+      width: 90%;
     }
     .call-box-top {
       flex: 1 0 auto;

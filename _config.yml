@@ -62,7 +62,11 @@ contribute:
   call:
     en:
     es:
-    ca:
+    ca: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
+  button:
+    en:
+    es:
+    ca: Col·laboreu
 
 defaults:
   - scope:
