@@ -21,16 +21,26 @@ header:
     es: Contacto
     ca: Contacte
 
+team_page:
+  title:
+    en: Meet the Team
+    es:
+    ca: El nostre equip
+  call:
+    en: 
+    es:
+    ca: "Treballem per fer créixer el vostre projecte mitjançant les dades, algoritmes i la consciència social."
+
 collections:
   services:
     output: true
-    permalink: /services/:path/
+    permalink: /serveis/:path/
   team:
     output: true
-    permalink: /team/:path/
+    permalink: /equip/:path/
   testimonials:
     output: true
-    permalink: /testimonials/:path/
+    permalink: /testimonis/:path/
 
 signup:
   title:
@@ -78,6 +88,16 @@ defaults:
       path: 'images'
     values:
      image: true
+
+strings:
+  email:
+    en: Email
+    es:
+    ca: "Correu electrònic"
+  adress:
+    en: Adress
+    es:
+    ca: L'adreça
 
 sass:
   style: compact # possible values: nested expanded compact compressed

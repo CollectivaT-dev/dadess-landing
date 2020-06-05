@@ -26,13 +26,12 @@ lang: ca
   <div class="row">
     <div class="col-12 col-md-8">
       <ul>
-        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+        <li><strong> {{ site.strings.email[page.lang] }}: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
         {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        <li><strong> {{ site.strings.adress[page.lang] }}: </strong>{{ site.data.contact.address }}</li>
         {% endif %}
       </ul>
-      <h4 class="mt-4">Business Hours</h4>
         <div id="mapid" style="height: 400px;"></div>
     </div>
   </div>
