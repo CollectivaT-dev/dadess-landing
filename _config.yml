@@ -12,6 +12,10 @@ header:
     en: Team
     es: Equipo
     ca: Equip
+  projects:
+    en: Featured Projects
+    es:
+    ca: Casos d'èxit
   testimonials:
     en: Testimonials
     es: Testimonios
@@ -44,7 +48,7 @@ organizers:
     image: '/images/team/coopdevs_without_slogan.svg'
     link: 'https://coopdevs.org/'
   - name: 'LabCoop'
-    image: '/images/team/labcoop-logo.png'
+    image: '/images/team/labcoop.jpg'
     link: 'http://labcoop.coop/'
   - name: 'femProcomuns'
     image: '/images/team/femProcomuns_logo.png'
@@ -52,6 +56,16 @@ organizers:
   - name: 'Col·lectivaT'
     image: '/images/team/collectivat_logo.png' 
     link: 'https://collectivat.cat'
+
+projects:
+  title:
+    en: Featured projects
+    es:
+    ca: Casos d'èxit
+  call:
+    en: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
+    es:
+    ca: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
 
 collections:
   services:

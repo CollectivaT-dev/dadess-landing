@@ -1,0 +1,32 @@
+---
+title: Projectes
+layout: default
+bodyClass: page-team-list
+lang: ca
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ site.projects.title[page.lang] }}</h1>
+        <p>{{ site.projects.call[page.lang] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for project in site.data.projects %}
+    <div class="col-12">
+      <div class="team team-summary">
+        <h1>{{ project[page.lang].title }} </h1>
+        <p>{{ project[page.lang].introduction }}</p>
+        <p>{{ project[page.lang].problem }}</p>
+        <p>{{ project[page.lang].solution }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

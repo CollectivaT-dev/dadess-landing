@@ -1,5 +1,5 @@
 ---
-title: "Associació pel Desenvolupament dels Bancs de Temps (ADBdT)/Timeoverflow"
+title: "Asociación para el Desarrollo de los Bancos de Tiempo (ADBdT)/Timeoverflow"
 ref: adbdt
 lang: es
 ---
