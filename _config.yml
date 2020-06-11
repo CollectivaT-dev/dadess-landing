@@ -23,13 +23,35 @@ header:
 
 team_page:
   title:
-    en: Meet the Team
+    en: Core Team
     es:
-    ca: El nostre equip
+    ca: L'equip impulsor
   call:
     en: 
     es:
     ca: "Treballem per fer créixer el vostre projecte mitjançant les dades, algoritmes i la consciència social."
+  organizers:
+    en: Organizations
+    es:
+    ca: Entitats Impulsores
+  org_call:
+    en: 
+    es:
+    ca: "DADESS és un paraigua de les entitats d'economia social i solidària que tenen l'objectiu d'impulsar la digitalització del sector i fomentar l'ús de dades per millorar les seves operacions. Les entitats que formen part de la comunitat DADESS, independentment i col·laborativament proporcionen serveis i executen projectes per aquesta finalitat."
+
+organizers:
+  - name: 'Coopdevs'
+    image: '/images/team/coopdevs_without_slogan.svg'
+    link: 'https://coopdevs.org/'
+  - name: 'LabCoop'
+    image: '/images/team/labcoop-logo.png'
+    link: 'http://labcoop.coop/'
+  - name: 'femProcomuns'
+    image: '/images/team/femProcomuns_logo.png'
+    link: 'https://femprocomuns.coop/'
+  - name: 'Col·lectivaT'
+    image: '/images/team/collectivat_logo.png' 
+    link: 'https://collectivat.cat'
 
 collections:
   services:
