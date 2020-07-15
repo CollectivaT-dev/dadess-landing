@@ -47,9 +47,9 @@ organizers:
   - name: 'Coopdevs'
     image: '/images/team/coopdevs_without_slogan.svg'
     link: 'https://coopdevs.org/'
-  - name: 'LabCoop'
-    image: '/images/team/labcoop.jpg'
-    link: 'http://labcoop.coop/'
+#  - name: 'LabCoop'
+#    image: '/images/team/labcoop.jpg'
+#    link: 'http://labcoop.coop/'
   - name: 'femProcomuns'
     image: '/images/team/femProcomuns_logo.png'
     link: 'https://femprocomuns.coop/'
@@ -65,7 +65,7 @@ projects:
   call:
     en: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
     es:
-    ca: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
+    ca: "Com una entitat dedicada a la inclusió i la innovació social, apliquem diverses metodologies de ciència de dades als projectes de l'ESS. Aquí podeu trobar alguns exemples dels nostres casos d'èxit de les solucions que havíem implementat fins ara."
 
 collections:
   services:
