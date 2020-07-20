@@ -2,6 +2,7 @@
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">
+  {% include google-analytics.html %}
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="{{site.baseurl}}/images/favicon.png">
@@ -16,6 +17,5 @@
   {% include footer.html %}
   {% include sub-footer.html %}
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
-  {% include google-analytics.html %}
 </body>
 </html>
