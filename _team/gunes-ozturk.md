@@ -6,7 +6,8 @@ email: ''
 linkedinurl: ''
 ---
 
-Professora Ass. del Departament de Geografia i Sociologia (Universitat de Lleida)
-Co-fundadora de Col·lectivaT
-9+ anys d’experiencia en investigació
-4+ anys d’experiencia en assessorament a L’ONGs
+Professora Ass. del Departament de Geografia i Sociologia (Universitat de Lleida)<br>
+Co-fundadora de Col·lectivaT<br>
+9+ anys d’experiencia en investigació<br>
+4+ anys d’experiencia en assessorament a L’ONGs<br>
+

@@ -1,10 +1,13 @@
-- ca:
-    title: "Associació pel Desenvolupament dels Bancs de Temps (ADBdT)/Timeoverflow"
+- ref: adbdt
+  image: "/images/projects/adbdt+to.png"
+  link_ext: https://www.timeoverflow.org/pages/about
+  ca:
+    title: "Associació pel Desenvolupament dels Bancs de Temps - Timeoverflow"
     introduction: "Els bancs de temps són entitats d'economia alternativa en què els actors poden proporcionar o rebre serveis mitjançant la transferència del seu temps/seves hores. TimeOverflow és la plataforma que facilita la comptabilització dels intercanvis d'hores dins dels bancs."
     problem: "La ADBdT és una organització que té la finalitat de promoure els bancs de temps i facilitar el seu bon funcionament. Per complir la seva missió l'organització està molt interessa a entendre i poder comunicar a el públic com estan funcionant els BdTs, en ser capaç de preveure problemes abans d'hora i així ajudar els bancs en la seva gestió, i en detectar variables rellevants que ajudin a millorar el funcionament d'aquestes entitats. Les dades necessàries per contestar aquestes preguntes i donar suport a la AdBdT en la presa de decisions són a l'abast gràcies a la plataforma TimeOverflow. No obstant això, la ADBdT no posseeix les eines i el coneixement necessari per processar-los, analitzar-los i visualizaros a la fi d'extreure la informació requerida."
     solution: "Des de Col·lectivaT vam analitzar les dades globals de Timeoverflow per definir indicadors claus capaços de caracteritzar els bancs des de diferents punts de vista (tipus de comunitat, volum i evolució de l'activitat,  estructura de la xarxa de connexions). A més, aplicant un algoritme de  lustering, vam identificar grups de bancs que presenten estructures o dinàmiques similars entre ells, ajudant així la ADBdT a detectar problemes i males/bones pràctiques comuns a diversos bancs i poder així desenvolupar i proposar solucions, recomanacions o intervencions especifiques per cada grup."
   es:
-    title: "Asociación para el Desarrollo de los Bancos de Tiempo (ADBdT)/Timeoverflow"
+    title: "Asociación para el Desarrollo de los Bancos de Tiempo - Timeoverflow"
     introduction: "Los bancos de tiempo son entidades de economía alternativa en que los actores pueden proporcionar o recibir servicios mediante la transferencia de su tiempo/sus horas. TimeOverflow es  la plataforma que facilita la contabilización de los intercambios de horas dentro de los bancos."
     problem: "La ADBdT es una organización que tiene la finalidad de promover los bancos de tiempo y facilitar su buen funcionamiento. Para cumplir su misión la organización está muy interesa en entender y poder comunicar al público como están funcionando los BdTs, en ser capaz de prever problemas antes de tiempo y así ayudar los bancos en su gestión, y en detectar variables relevantes que ayuden a mejorar el funcionamiento de estas entidades. Los datos necesarios para contestar estas preguntas y apoyar la AdBdT en la toma de decisiones están disponible gracias a la plataforma TimeOverflow. Sin embargo, la ADBdT no posee las herramientas y el conocimiento necesario para procesarlos, analizarlos y visualizaros al fin de extraer la información requerida."
     solution: "Des de Col·lectivaT analizamos los datos globales de Timeoverflow para definir indicadores claves capaces de caracterizar los bancos desde distintos puntos de vista (tipo de comunidad, volumen y evolución de la actividad, estructura de la red de conexiones). Además, aplicando un algoritmo de clustering, identificamos grupos de bancos que presentan estructuras o dinámicas similares entre ellos, ayudando así la ADBdT a detectar problemas y malas/buenas practicas comunes a varios bancos y poder así desarrollar y  proponer soluciones, recomendaciones o intervenciones especificas para cada grupo."
@@ -13,7 +16,10 @@
     introduction:
     problem:
     solution:
-- ca:
+- ref: teixidora
+  image: "/images/projects/teixidora.png"
+  link_ext: https://www.teixidora.net
+  ca:
     title: Teixidora
     introduction: "Teixidora és un projecte que facilita la presa d'apunts col·laboratius en obert, genera cartografies d'actors a partir dels esdeveniments, relacionant semànticament els continguts generats, sobretot en l'àmbit de ESS."
     problem: "El contingut de Texidora, generat a partir dels apunts, no està estandarditzat, és a dir el nom de qualsevol organització, actor o concepte pot aparèixer en diverses formes diferents. Això impedeix la vinculació de l'contingut, que és imprescindible per al funcionament d'una wiki semàntica com Teixidora."
@@ -28,7 +34,10 @@
     introduction:
     problem:
     solution:
-- ca:
+- ref: reusabol
+  image: "/images/projects/reusabol.png"
+  link_ext: https://www.reusabol.com
+  ca:
     title: "Reusabol"
     introduction: "Cada dia introduïm una gran quantitat de residus plàstics mitjançant el nostre consum de menjar, sobretot amb les nostres compres \"per emportar.\" Reusabol vol disminuir aquest consum d'un sol ús amb els seus tuppers reutilitzables que circulen a la seva xarxa de restaurants."
     problem: "En el seu projecte pilot, Reusabol volia extreure mètriques importants capaços de descriure l'ús dels tuppers i els seus usuaris enfocant a una quantitat de restaurants limitades. No obstant això, les dades que tenien a disposició venien dels restaurants i no d'una aplicació centralitzada. És a dir, a través d'un exercici d'intel·ligència empresarial, es requeria poder extreure informació útil per prendre decisions de cara a el futur, a partir de dades d'ús dels tuppers anònims i agregats setmanals."

@@ -20,6 +20,10 @@ header:
     en: Testimonials
     es: Testimonios
     ca: Testimonis
+  data:
+    en: Open Data
+    es: Datos Abiertos
+    ca: Dades Obertes
   contact:
     en: Contact
     es: Contacto
@@ -108,7 +112,7 @@ contribute:
   call:
     en:
     es:
-    ca: "Voluptatem reprehenderit voluptatem sit possimus quaerat alias odit et. Repellat consequatur et saepe placeat consequuntur sit fuga illo. Sit dolores ab ut assumenda omnis sapiente voluptas ipsa."
+    ca: "Si voleu unir-vos a la conversa, o voleu veure les discussions anteriors, podeu visitar el nostre fòrum."
   button:
     en:
     es:

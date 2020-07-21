@@ -6,8 +6,8 @@ email: ''
 linkedinurl: 'https://www.linkedin.com/'
 ---
 
-PhD en Astrofisica
-Co-fundador de Col·lectivaT
-6 anys d’experiencia en investigació
-2+ anys d’experiencia en la industria
+PhD en Astrofisica<br>
+Co-fundador de [Col·lectivaT](https://collectivat.cat/)<br>
+6 anys d’experiencia en investigació<br>
+2+ anys d’experiencia en la industria<br>
 3 anys d’experiencia en el mercat social
