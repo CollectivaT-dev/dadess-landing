@@ -39,13 +39,35 @@ lang: ca
           <h2 class="service-title">
             <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          {{ service.content | markdownify | strip_html | truncate: 200 }}
         </div>
       </div>
     </div>
     {% endfor %}
     <div class="col-12 text-center">
       <a class="button button-primary mt-2" href="{{site.baseurl}}/services">{{ site.data.landing.all_services }}</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-8 pt-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">{{ site.data.landing.projects }}</h2>
+    </div>
+    {% for project in site.data.projects %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="row">
+            <a href="{{site.baseurl}}/projects">
+              <img src="{{ project.image }}" alt="{{ project.ref }}" width="100%">
+            </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12 text-center">
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/projects">{{ site.data.landing.all_projects }}</a>
     </div>
   </div>
 </div>
@@ -63,7 +85,7 @@ lang: ca
       <form class="call" action="https://dadess.us18.list-manage.com/subscribe/post?u=4ddff94f9cd51d97df883f3ce&amp;id=c0cd3bb4b3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="call-box-top">
           <input type="email" name="EMAIL" value="" id="mce-EMAIL" placeholder="{{site.signup.placeholder[page.lang]}}" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <!-- signup for bots -->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4ddff94f9cd51d97df883f3ce_c0cd3bb4b3" tabindex="-1" value=""></div>
         </div>
         <div class="call-box-bottom">
