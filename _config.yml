@@ -65,6 +65,25 @@ organizers:
 #    image: '/images/team/labcoop.jpg'
 #    link: 'http://labcoop.coop/'
 
+community_projects_page:
+  title:
+    ca: 'Projectes de la Comunitat'
+  call:
+    ca: "Membres de la comunitat de DADESS analitzen les dades publicades per generar un coneixement profund sobre l'economia social i solidària. A qui podeu trobar els detalls d'aquests projectes i els resultats."
+
+community_projects:
+  - image: https://camo.githubusercontent.com/ac60a6587ae6c9814414ba633e5577228ea2b15b/687474703a2f2f672e7265636f726469742e636f2f3879397265556b3939742e676966
+    ref: agro_covid
+    link: '/community_projects/agro_covid_analysis'
+    title:
+      en: "Analysis of new agro-ecological networks in response to COVID-19"
+      es: "Análisis de las nuevas redes agroecológicas en respuesta al COVID-19"
+      ca: "Anàlisi de les noves xarxes agroecològiques en resposta al COVID-19"
+    summary:
+      en:
+      es:
+      ca: "Arran de la pandèmia del COVID-19 serveis com la restauració, mercats, etc. van tancar posant en un moment d'urgència a projectes agrícoles, ramaders i artesanals que necessitaven una sortida ràpida del seu producte. La resposta d'aquests projectes va ser obrir la seva venta habilitant la possibilitat de comandes (per telèfon, on-line, etc.), enviaments a certes localitzacions i deixant la seva informació disponible (mètodes de pagament, productes, botiga, etc.). A continuació mostrarem l'ànalisis fet sobre les dades dels projectes que han sorgit així com la comparació amb les dades dels productors adherits a la venda de proximitat de la Generalitat de Catalunya."
+
 projects:
   title:
     en: Featured projects

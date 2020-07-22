@@ -72,6 +72,31 @@ lang: ca
   </div>
 </div>
 
+<div class="container pt-8 pt-md-10">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">{{ site.data.landing.community_projects }}</h2>
+    </div>
+    {% for project in site.community_projects %}
+    <div class="col-12 col-md-4">
+      <div class="service service-summary">
+        <div class="row">
+          <h2>
+            <a href="{{site.baseurl}}{{project.link}}"> {{ project.title[page.lang] }} </a>
+          </h2>
+          <a href="{{site.baseurl}}{{project.link}}">
+            <img src="{{ project.image }}" alt="{{ project.ref }}" width="100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12 text-center">
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/community_projects">{{ site.data.landing.all_projects }}</a>
+    </div>
+  </div>
+</div>
+
 <br/>
 <br/>
 

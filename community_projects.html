@@ -1,0 +1,47 @@
+---
+title: Community Projects
+layout: default
+bodyClass: page-team-list
+lang: ca
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ site.community_projects_page.title[page.lang] }}</h1>
+        <p>{{ site.community_projects_page.call[page.lang] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% for project in site.community_projects %}
+  <div class="content container pb-6 team team-summary">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="text-align:center;">
+          <a href="{{ project.link }}">
+            <h2>{{ project.title[page.lang] }}</h2>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" style="text-align:center;">
+          <p align="center">
+            <a href="{{ project.link }}">
+              <img src="{{ project.image }}" alt="{{ project.ref  }}" width="80%">
+            </a>
+          </p>
+          <br>
+        </div>
+        <div class="col-md-6">
+          <p>{{ project.summary[page.lang] }}</p>
+        </div>
+      </div>
+    <hr>
+    </div>
+    <br>
+    <br>
+  </div>
+{% endfor %}
