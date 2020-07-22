@@ -58,19 +58,21 @@ lang: ca
 <div class="container pb-6">
   <div class="row">
     {% for organizer in site.organizers %}
-    <div class="col-12 col-md-3 mb-1">
+    <div class="col-12 col-md-4 mb-1">
       <div class="team team-summary">
         {% if organizer.image %}
         <div class="team-image">
-          <img
+          <a target="_blank" href="{{ organizer.link }}">
+            <img
             alt="{{ organizer.name }} logo"
-            class="img-fluid mb-2"
+            class="img-fluid mb-1"
             style="display:block; margin-left:auto; margin-right:auto; height:150px; width:150px"
             src="{{site.baseurl}}{{ organizer.image }}"
-          />
-          <h2 class="team-name">
+            />
+          </a>
+          <!-- <h2 class="team-name">
             <a target="_blank" href="{{ organizer.link }}"> {{ organizer.name }} </a>
-          </h2>
+          </h2> -->
         </div>
         {% endif %}
       </div>

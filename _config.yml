@@ -4,6 +4,10 @@ permalink: pretty
 title: 'DADESS'
 
 header:
+  home:
+    en: Home
+    es: Inicio
+    ca: Inici
   services:
     en: Services
     es: Servicios
@@ -14,7 +18,7 @@ header:
     ca: Equip
   projects:
     en: Featured Projects
-    es:
+    es: Casos de éxito
     ca: Casos d'èxit
   testimonials:
     en: Testimonials
@@ -51,15 +55,15 @@ organizers:
   - name: 'Coopdevs'
     image: '/images/team/coopdevs_without_slogan.svg'
     link: 'https://coopdevs.org/'
-#  - name: 'LabCoop'
-#    image: '/images/team/labcoop.jpg'
-#    link: 'http://labcoop.coop/'
   - name: 'femProcomuns'
     image: '/images/team/femProcomuns_logo.png'
     link: 'https://femprocomuns.coop/'
   - name: 'Col·lectivaT'
     image: '/images/team/collectivat_logo.png' 
     link: 'https://collectivat.cat'
+#  - name: 'LabCoop'
+#    image: '/images/team/labcoop.jpg'
+#    link: 'http://labcoop.coop/'
 
 projects:
   title:
