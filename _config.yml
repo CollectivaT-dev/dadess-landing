@@ -28,6 +28,10 @@ header:
     en: Open Data
     es: Datos Abiertos
     ca: Dades Obertes
+  community_projects:
+    en: Contributions
+    es: Contribuciones
+    ca: Contribucions
   contact:
     en: Contact
     es: Contacto
@@ -67,14 +71,14 @@ organizers:
 
 community_projects_page:
   title:
-    ca: 'Projectes de la Comunitat'
+    ca: 'Contribucions de la Comunitat'
   call:
-    ca: "Membres de la comunitat de DADESS analitzen les dades publicades per generar un coneixement profund sobre l'economia social i solidària. A qui podeu trobar els detalls d'aquests projectes i els resultats."
+    ca: "Membres de la comunitat de DADESS analitzen les dades publicades a la nostra plataforma per generar un coneixement profund sobre l'economia social i solidària. Aquí podeu trobar els resultats detallats d'aquests projectes."
 
 community_projects:
   - image: https://camo.githubusercontent.com/ac60a6587ae6c9814414ba633e5577228ea2b15b/687474703a2f2f672e7265636f726469742e636f2f3879397265556b3939742e676966
     ref: agro_covid
-    link: '/community_projects/agro_covid_analysis'
+    link: '/community/agro_covid_analysis'
     title:
       en: "Analysis of new agro-ecological networks in response to COVID-19"
       es: "Análisis de las nuevas redes agroecológicas en respuesta al COVID-19"
