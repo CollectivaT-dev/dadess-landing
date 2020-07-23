@@ -7,6 +7,6 @@ linkedinurl: ''
 ---
 
 Consultora de ciència de dades<br>
-PhD en Astrofisica<br>
-7 anys d’experiencia en investigació<br>
-2+ anys d’experiencia en la industria com a consultora
+PhD en Astrofísica<br>
+7 anys d’experiència en investigació<br>
+2+ anys d’experiència en la indústria com a consultora
