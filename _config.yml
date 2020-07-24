@@ -54,7 +54,15 @@ team_page:
     en: 
     es:
     ca: "DADESS és un paraigua de les entitats d'economia social i solidària que tenen l'objectiu d'impulsar la digitalització del sector i fomentar l'ús de dades per millorar les seves operacions. Les entitats que formen part de la comunitat DADESS, independentment i col·laborativament proporcionen serveis i executen projectes per aquesta finalitat."
-
+  collaborators:
+    en: Collaborators
+    es:
+    ca: Collaboradores
+  col_call:
+    en: 
+    es:
+    ca: "Podeu trobar altres persones que ajuden a DADESS per fer créixer l'ús de ciència de dades en l'ESS."
+ 
 organizers:
   - name: 'Coopdevs'
     image: '/images/team/coopdevs_without_slogan.svg'

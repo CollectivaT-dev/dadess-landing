@@ -19,6 +19,7 @@ lang: ca
 <div class="container pb-6">
   <div class="row justify-content-center">
     {% for team in site.team %}
+    {% if team.collaborator != true %}
     <div class="col-12 col-md-6 mb-1">
       <div class="team team-summary">
         {% if team.image %}
@@ -40,6 +41,48 @@ lang: ca
         <div class="team-content">{{ team.content }}</div>
       </div>
     </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ site.team_page.collaborators[page.lang] }}</h1>
+        <p>{{ site.team_page.col_call[page.lang] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row justify-content-center">
+    {% for team in site.team %}
+    {% if team.collaborator == true %}
+    <div class="col-12 col-md-6 mb-1">
+      <div class="team team-summary">
+        {% if team.image %}
+        <div class="team-image">
+          <img
+            alt="{{ team.title }} logo"
+            class="img-fluid mb-2"
+            src="{{site.baseurl}}{{ team.image }}"
+          />
+        </div>
+        {% endif %}
+        <div class="team-meta">
+          <h2 class="team-name">{{ team.title }}</h2>
+          <p class="team-description">{{ team.jobtitle }}</p>
+          {% if team.linkedinurl %}
+          <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a> 
+          {% endif %}
+        </div>
+        <div class="team-content">{{ team.content }}</div>
+      </div>
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>
